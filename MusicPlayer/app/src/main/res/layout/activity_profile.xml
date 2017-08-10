@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicplayerproject.Profile">
+    <TextView
+        android:id="@+id/tv_header"
+        style="@style/textView_profile"
+        android:layout_alignParentTop="true"
+        android:text="User Profile Here"/>
+    <ImageView
+        android:id="@+id/imageView_id"
+        style="@style/textView_profile"
+        android:layout_below="@+id/tv_header"
+        android:src="@drawable/profile_pic"/>
+    <TextView
+        android:id="@+id/tv_header_2"
+        style="@style/textView_profile"
+        android:layout_below="@id/imageView_id"
+        android:text="Username"/>
+    <TextView
+        android:id="@+id/tv_header_3"
+        style="@style/textView_profile"
+        android:layout_below="@id/tv_header_2"
+        android:text="Mobile Number"/>
+    <Button
+        android:id="@+id/btn_purchase"
+        style="@style/button_purchase_profile"
+        android:text="Purchase music online"/>
+    <LinearLayout
+        android:id="@+id/linear_bottom"
+        style="@style/linear_bottom">
+        <Button
+            android:id="@+id/btn_home"
+            style="@style/button_home"/>
+        <Button
+            android:id="@+id/btn_search"
+            style="@style/button_search"/>
+        <Button
+            android:id="@+id/btn_queue_music"
+            style="@style/button_queue"/>
+        <Button
+            android:id="@+id/btn_folder"
+            style="@style/button_folder"/>
+        <Button
+            android:id="@+id/btn_profile"
+            style="@style/button_profile"/>
+    </LinearLayout>
+</RelativeLayout>

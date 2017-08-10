@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicplayerproject.payment">
+    <TextView
+        android:id="@+id/tv_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="Payment Procedures:"
+        android:textSize="24sp"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_back"
+        android:layout_below="@+id/tv_payment"
+        android:padding="@dimen/dim_four">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/textView_payment"
+                android:text="@string/payment_step_one"/>
+            <TextView
+                style="@style/textView_payment"
+                android:text="@string/payment_step_two"/>
+            <TextView
+                style="@style/textView_payment"
+                android:text="@string/payment_step_three"/>
+            <TextView
+                style="@style/textView_payment"
+                android:text="@string/payment_step_four"/>
+            <TextView
+                style="@style/textView_payment"
+                android:text="@string/payment_step_five"/>
+            <TextView
+                style="@style/textView_payment"
+                android:text="@string/payment_step_six"/>
+            <TextView
+                style="@style/textView_payment"
+                android:text="@string/payment_step_seven"/>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_back"
+        android:text="Back to home Screen"
+        style="@style/button_back_payment"/>
+</RelativeLayout>
