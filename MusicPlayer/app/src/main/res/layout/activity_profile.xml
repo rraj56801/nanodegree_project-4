@@ -9,7 +9,7 @@
         android:id="@+id/tv_header"
         style="@style/textView_profile"
         android:layout_alignParentTop="true"
-        android:text="User Profile Here"/>
+        android:text="Activity that shows user details"/>
     <ImageView
         android:id="@+id/imageView_id"
         style="@style/textView_profile"

@@ -13,7 +13,7 @@
         <TextView
             android:id="@+id/textview"
             style="@style/header_nowplaying"
-            android:text="Currently Playing Song"/>
+            android:text="@string/header_play"/>
         <TextView
             android:id="@+id/tv_song_title"
             style="@style/songtitle_nowplaying"

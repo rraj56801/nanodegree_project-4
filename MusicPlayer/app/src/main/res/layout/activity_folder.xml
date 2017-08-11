@@ -7,8 +7,18 @@
     tools:context="com.example.android.musicplayerproject.Folder">
     <TextView
         android:text="All Songs Here"
-        android:id="@+id/tv_header"
+        android:id="@+id/text_folder"
         style="@style/textView_header_album"/>
+    <TextView
+        android:layout_below="@+id/text_folder"
+        android:id="@+id/tv_header"
+        android:layout_marginBottom="@dimen/dim_four"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header_artist_detail"/>
+
 
     <EditText
         android:layout_below="@id/tv_header"

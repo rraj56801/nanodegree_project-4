@@ -6,11 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.musicplayerproject.payment">
     <TextView
+        android:id="@+id/tv_header"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header_payment"/>
+    <TextView
+        android:layout_below="@+id/tv_header"
         android:id="@+id/tv_payment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_margin="@dimen/activity_horizontal_margin"
         android:text="Payment Procedures:"
         android:textSize="24sp"/>
     <ScrollView

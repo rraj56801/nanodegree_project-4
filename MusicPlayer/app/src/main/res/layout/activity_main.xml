@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.android.musicplayerproject.MainActivity">
+    <TextView
+        android:id="@+id/tv_header"
+         android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header_main"/>
+
     <EditText
         android:id="@+id/editText_search"
         android:layout_width="match_parent"
@@ -17,6 +24,7 @@
               android:visibility="gone">
     </ListView>
     <ScrollView
+        android:layout_below="@+id/tv_header"
         android:id="@+id/scrollView_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

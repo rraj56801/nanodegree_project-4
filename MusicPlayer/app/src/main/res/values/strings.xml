@@ -14,10 +14,17 @@
     <string name="scan_menu">Scan for nearby devices</string>
     <string name="settings_menu">Setting</string>
     <string name="exit_menu">Exit</string>
-    <string name="header_artist">Artist PlayList Here</string>
+    <string name="header_artists">Artist PlayList Here</string>
+    <string name="header_artist_detail">Activity that shows songs of the selected artist</string>
     <string name="header_album">Album PlayList Here</string>
+    <string name="header_main">New trending, Artist and Album PlayList Here</string>
+    <string name="header_album_detail">Activity that shows songs of the selected album</string>
     <string name="header_folder">All Songs Here</string>
+    <string name="header_payment">Activity that shows how to process Payment</string>
     <string name="header_new_trending">New Trending PlayList</string>
+    <string name="header_newtrending_detail">Activity that shows new trending songs</string>
+    <string name="header_play">Activity that shows currently playing song</string>
+
     <string name="payment_step_one">1. The checkout screen layout includes an instance of the
         WalletFragment class set to BUY_BUTTON mode. In this mode, the fragment displays an Android
         Pay button and sets a MaskedWalletRequest.
