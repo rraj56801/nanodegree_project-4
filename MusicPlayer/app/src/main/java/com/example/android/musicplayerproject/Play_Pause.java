@@ -29,8 +29,6 @@ public class Play_Pause extends AppCompatActivity {
     private Button btn_play;
     private Button btn_rewind;
     private MediaPlayer song_first;
-    private MediaPlayer song_second;
-    private MediaPlayer song_third;
     private double startTime = 0;
     private double finalTime = 0;
     private Handler myHandler = new Handler();
@@ -70,8 +68,6 @@ public class Play_Pause extends AppCompatActivity {
         tv_right_seek = (TextView) findViewById(R.id.text_right_seek);
         tv_middle_seek = (TextView) findViewById(R.id.text_middle_seek);
         song_first = MediaPlayer.create(Play_Pause.this, R.raw.dil_kya_kare);
-        song_second = MediaPlayer.create(Play_Pause.this, R.raw.man_dole_mera_tan_dole);
-        song_third = MediaPlayer.create(Play_Pause.this, R.raw.pardesiyon_se_na);
         seekbar = (SeekBar) findViewById(R.id.seekBar);
         seekbar.setClickable(false);
         btn_pause.setEnabled(false);
